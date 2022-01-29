@@ -1,0 +1,14 @@
+// Check - Restaurant page
+.rotation {
+  position: relative;
+  background: $tertiary;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  @include flex-center;
+  i {
+    color: $white;
+    font-size: 2rem;
+  }
+}

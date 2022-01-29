@@ -1,5 +1,16 @@
-@import "./scss/reset";
-@import "./scss/variables";
-@import "./scss/keyframes";
-@import "./scss/home";
-@import "./scss/resto";
+// Base
+@import "./scss/base/reset";
+@import "./scss/base/typography";
+
+// Utils
+@import "./scss/utils/mixins";
+@import "./scss/utils/variables";
+@import "./scss/utils/keyframes";
+
+// Pages
+@import "./scss/pages/home";
+@import "./scss/pages/resto";
+
+// Components
+@import "./scss/components/loading";
+@import "./scss/components/check";

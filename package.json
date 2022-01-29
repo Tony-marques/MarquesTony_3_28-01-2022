@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./styles/styles.scss:./styles/styles.css"
+    "sass": "sass --watch ./styles/styles.scss:./styles/styles.css",
+    "prefix": "postcss ./styles/styles.css --use autoprefixer -d ./styles/stylesAutoprefixer"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "autoprefixer": "^10.4.2",
     "node-sass": "^7.0.1",
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0",
     "sass": "^1.49.0"
-  }
+  },
+  "browserslist": "last 4 versions"
 }
