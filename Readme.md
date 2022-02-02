@@ -13,4 +13,4 @@
 
 Projet entièrement réalisé avec sass avec le pattern 7:1 et avec l'extension autoPrefixer pour une meilleure gestion des navigateurs
 
-[Lien de mon projet](https://tonym78.github.io/P3_ohmyfood/)
+[Lien de mon projet](https://tony-marques.github.io/P3_ohmyfood/)
