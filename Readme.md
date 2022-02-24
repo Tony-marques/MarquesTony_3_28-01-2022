@@ -13,4 +13,4 @@
 
 Projet entièrement réalisé avec sass avec le pattern 7:1 et avec l'extension autoPrefixer pour une meilleure gestion des navigateurs
 
-[Lien de mon projet](https://tony-marques.github.io/MarquesTony_3_28-01-2022//)
+[Lien de mon projet](https://tony-marques.github.io/MarquesTony_3_28-01-2022/)
