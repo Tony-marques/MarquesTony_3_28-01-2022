@@ -300,35 +300,6 @@ main .restaurants .cards__card__body {
   color: #000000;
   padding: 1rem;
 }
-main .restaurants .cards__card__body .heart {
-  position: relative;
-  width: 25px;
-  height: 25px;
-}
-main .restaurants .cards__card__body .heart:hover .fas {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(1.1);
-}
-main .restaurants .cards__card__body .heart .fas {
-  color: transparent;
-  position: absolute;
-  transform: translate(-50%, -50%) scale(0);
-  top: 50%;
-  left: 50%;
-  background-image: linear-gradient(#9356dc, #ff79da);
-  background-clip: text;
-  -webkit-background-clip: text;
-  opacity: 0;
-  font-size: 1.5rem;
-  transition: opacity 0.5s, transform 0.5s;
-}
-main .restaurants .cards__card__body .heart .far {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-  font-size: 1.5rem;
-}
 main .restaurants .cards__card__title {
   display: flex;
   flex-direction: column;
@@ -507,36 +478,6 @@ main .menu__header {
 main .menu__header__title {
   font-size: 1.6rem;
 }
-main .menu__header .heart {
-  position: relative;
-  width: 25px;
-  height: 25px;
-  cursor: pointer;
-}
-main .menu__header .heart:hover .fas {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(1.1);
-}
-main .menu__header .heart .fas {
-  color: transparent;
-  position: absolute;
-  transform: translate(-50%, -50%) scale(0);
-  top: 50%;
-  left: 50%;
-  background-image: linear-gradient(#9356dc, #ff79da);
-  background-clip: text;
-  -webkit-background-clip: text;
-  opacity: 0;
-  font-size: 1.5rem;
-  transition: opacity 0.5s, transform 0.5s;
-}
-main .menu__header .heart .far {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-  font-size: 1.5rem;
-}
 main .menu .entries,
 main .menu .plats,
 main .menu .desserts {
@@ -668,6 +609,37 @@ main .menu button:hover {
   main .menu button {
     margin-top: 2rem;
   }
+}
+
+.heart {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.heart:hover .fas {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1.1);
+}
+.heart .fas {
+  color: transparent;
+  position: absolute;
+  transform: translate(-50%, -50%) scale(0);
+  top: 50%;
+  left: 50%;
+  background-image: linear-gradient(#9356dc, #ff79da);
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: 0;
+  font-size: 1.5rem;
+  transition: opacity 0.5s, transform 0.5s;
+}
+.heart .far {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 1.5rem;
 }
 
 .loading {
